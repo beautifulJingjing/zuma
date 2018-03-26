@@ -1,0 +1,12 @@
+2017/11/20 10:06:40		Event	Ja0PvuRVd7jNTFaXw_HBGgPVrUhpP8fV				getVip						/proxy/log?name=getVip&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:19:28		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				getVip						/proxy/log?name=getVip&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:19:53		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				closeBox						/proxy/log?name=closeBox&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:19:54		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				getVip						/proxy/log?name=getVip&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:28:44		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				goPay						/proxy/log?name=goPay&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:28:49		Interface	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				/api/order/OrderPayALogin	amount=1.50&busineType=1&month=3&phone=18324490333					/api/order/OrderPayALogin?amount=1.50&busineType=1&month=3&phone=18324490333	http://localhost:8080/	::1	
+2017/11/20 14:29:46		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				goPay						/proxy/log?name=goPay&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:29:52		Interface	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				/api/order/OrderPayALogin	amount=1.50&busineType=1&month=3&phone=18324490333					/api/order/OrderPayALogin?amount=1.50&busineType=1&month=3&phone=18324490333	http://localhost:8080/	::1	
+2017/11/20 14:31:51		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				getVip						/proxy/log?name=getVip&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:31:53		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				closeBox						/proxy/log?name=closeBox&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:31:54		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				getVip						/proxy/log?name=getVip&type=event&loading=false	http://localhost:8080/	::1	
+2017/11/20 14:31:56		Event	9rgaUUR6ECUAlEgyOxSdczmqqchOZf6E				closeBox						/proxy/log?name=closeBox&type=event&loading=false	http://localhost:8080/	::1	

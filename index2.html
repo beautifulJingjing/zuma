@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="full-screen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="address=no"><meta name="wap-font-scale" content="no">
+</head>
+<style>
+
+</style>
+<script>
+	function Router() {
+		this.routes = {};
+		this.currentUrl = '';
+	}
+	Router.prototype.route = function(path, callback) {
+		this.routes[path] = callback || function(){};
+	};
+	Router.prototype.refresh = function() {
+		this.currentUrl = location.hash.slice(1) || '/';
+		this.routes[this.currentUrl]();
+	};
+	Router.prototype.init = function() {
+		window.addEventListener('load', this.refresh.bind(this), false);
+		window.addEventListener('hashchange', this.refresh.bind(this), false);
+	}
+</script>
+<body>
+<ul>
+    <li><a href="#/">turn white</a></li>
+    <li><a href="#/blue">turn blue</a></li>
+    <li><a href="#/green">turn green</a></li>
+</ul>
+</body>
+<script>
+
+	window.Router = new Router();
+	window.Router.init();
+	var content = document.querySelector('ul');
+	// change Page anything
+	function changeBgColor(color) {
+		content.style.backgroundColor = color;
+	}
+	Router.route('/', function() {
+		changeBgColor('white');
+	});
+	Router.route('/blue', function() {
+		changeBgColor('blue');
+	});
+	Router.route('/green', function() {
+		changeBgColor('green');
+	});
+</script>
+</html>

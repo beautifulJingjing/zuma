@@ -1,0 +1,6 @@
+2018/03/02 13:35:23		Event	dgZ1cJCQLjpW_1_z7mM6gmc5devBwtLb				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/03/02 13:35:24		Error	G8zlqmooPatSMWPy1xmOhBo6WZNUnu_0				/api/template/getTemplate		{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"192.168.2.189","port":8070}				/api/template/getTemplate?	http://localhost:8080/	undefined	
+2018/03/02 13:42:15		Error	Y-ThZskmLHFOOHHrTLEvc8nplEy-bajK				/api/template/getTemplate		{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"192.168.2.189","port":8070}				/api/template/getTemplate?	http://localhost:8080/	undefined	
+2018/03/02 13:45:00		Event	_eRR7_B5C5UtTp5VXIG495QvmiWT0F7B				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/03/02 13:45:01		Error	h2q_znd3W8Lt-pdS8I_mZxeMr8io5v09				/api/template/getTemplate		{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"192.168.2.189","port":8070}				/api/template/getTemplate?	http://localhost:8080/	undefined	
+2018/03/02 13:45:58		Error	aDFbFNcUmB4gpRd_mH4ejVgmYMTZ_1XQ				/api/template/getTemplate		{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"192.168.2.189","port":8070}				/api/template/getTemplate?	http://localhost:8080/	undefined	

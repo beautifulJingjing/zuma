@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "mobileprinting",
+      "script": "app.js",
+      "watch": true,
+      "ignore_watch": [
+        "node_modules",
+        "logs",
+        "dist"
+      ],
+      "error_file": "logs/pm2/app-err.log",
+      "out_file": "logs/pm2/app-out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "env_dev": {
+        "NODE_ENV": "development",
+        "PORT": 3008
+      },
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3008
+      }
+    }
+  ]
+}

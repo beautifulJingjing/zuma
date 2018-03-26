@@ -1,0 +1,5 @@
+2018/01/11 10:34:54		Visit	hMwDYtvKFGKA6UjZjh4Vadn1XCBavk8L										/?		undefined	Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1
+2018/01/11 10:34:56		Event	hMwDYtvKFGKA6UjZjh4Vadn1XCBavk8L				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:3008/	undefined	
+2018/01/11 10:35:11		Event	hMwDYtvKFGKA6UjZjh4Vadn1XCBavk8L				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:3008/	undefined	
+2018/01/11 13:33:57		Visit	uHcz077XKbUL0ErLkoTdZS8PHiNwyD-9										/?		undefined	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+2018/01/11 13:35:10		Event	uHcz077XKbUL0ErLkoTdZS8PHiNwyD-9				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:3008/	undefined	

@@ -1,0 +1,10 @@
+2017/09/27 11:33:11	34052340554	Event	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm				toLogin						/proxy/log?name=toLogin&type=event	http://localhost:8080/	::1	
+2017/09/27 11:35:04	34052340554	Interface	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm				/api/login/loginmsg	phone=18324490333&fromType=2					/api/login/loginmsg?phone=18324490333&fromType=2	http://localhost:8080/login	::1	
+2017/09/27 11:35:04	34052340554	Interface	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	::1	
+2017/09/27 11:35:11	34052340554	Event	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		repay						/proxy/log?name=repay&type=event	http://localhost:8080/profile	::1	
+2017/09/27 11:37:37	34052340554	Event	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		repay						/proxy/log?name=repay&type=event	http://localhost:8080/pay?repay=true	::1	
+2017/09/27 11:37:37	34052340554	Interface	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		/api/order/pay	amount=15.00&busineType=1&month=3&uid=20					/api/order/pay?amount=15.00&busineType=1&month=3&uid=20	http://localhost:8080/pay?repay=true	::1	
+2017/09/27 11:42:57	34052340554	Event	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		repay						/proxy/log?name=repay&type=event	http://localhost:8080/pay?repay=true	::1	
+2017/09/27 11:43:03	34052340554	Interface	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		/api/order/pay	amount=27.00&busineType=1&month=6&uid=20					/api/order/pay?amount=27.00&busineType=1&month=6&uid=20	http://localhost:8080/pay?repay=true	::1	
+2017/09/27 11:43:07	34052340554	Interface	2fK8zRYMLLqTLUR96EymYVuTgrrZtDwm	20	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	::1	
+2017/09/27 14:14:31	34052340554	Event	OeCcHEqGvtypFWitdf4IZAeOvwRjzP8R				toLogin						/proxy/log?name=toLogin&type=event	http://localhost:8080/	::1	

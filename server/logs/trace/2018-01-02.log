@@ -1,0 +1,30 @@
+2018/01/02 10:34:18		Event	_AFTBLF8YWQyY1P7i-cA5zeTmMFfdu8H				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/02 10:34:27		Event	3wDzdtvXKyE6IteYz37uwLobWr2k0x7p				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/02 10:37:57		Event	xiXp9OaYpFxk1Agi34TjHq6VB5aVdWBW				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/02 10:38:14		Interface	WqrE15xNunGBtB4onxYmQz8psHh1a4WC				/api/login/loginmsg	phone=18324490333&fromType=2					/api/login/loginmsg?phone=18324490333&fromType=2	http://localhost:8080/login	undefined	
+2018/01/02 10:38:18		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/login	undefined	
+2018/01/02 10:38:18		Interface	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/02 10:41:38		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/02 10:41:38		Interface	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/02 10:41:40		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		goChange						/proxy/log?name=goChange&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/02 10:41:40		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/02 10:41:49		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		nextStep						/proxy/log?name=nextStep&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 10:41:50		Interface	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		/api/user/changecard	uid=92&companyName=%E7%A5%96%E7%8E%9B%E7%A7%91%E6%8A%80&name=&address=%E8%A5%BF%E6%BA%AA%E8%B0%B7%E5%95%86%E5%8A%A1%E4%B8%AD%E5%BF%83					/api/user/changecard?uid=92&companyName=%E7%A5%96%E7%8E%9B%E7%A7%91%E6%8A%80&name=&address=%E8%A5%BF%E6%BA%AA%E8%B0%B7%E5%95%86%E5%8A%A1%E4%B8%AD%E5%BF%83	http://localhost:8080/make?process=true	undefined	
+2018/01/02 10:41:52		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 10:42:42		Interface	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		/api/order/pay	amount=0.50&busineType=1&month=1&uid=92&payType=1					/api/order/pay?amount=0.50&busineType=1&month=1&uid=92&payType=1	http://localhost:8080/pay?process=true	undefined	
+2018/01/02 10:42:58		Event	WqrE15xNunGBtB4onxYmQz8psHh1a4WC	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 11:43:13		Event	vkUjfW-82ocwrvXbi1RkR0sXeJqB0_Hd				nextStep						/proxy/log?name=nextStep&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 11:43:13		Event	l7QDCV9_6hVhd8pBn58Au3rdcWs_lwd2				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 11:43:13		Event	VBVerkXHJKceSlsjTu1MC0H8oCT7VD8X				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 11:44:13		Interface	sPPKYNaRjrJlIqC5JdbWS9AGVH1ng9de				/api/login/loginmsg	phone=18324490333&fromType=2					/api/login/loginmsg?phone=18324490333&fromType=2	http://localhost:8080/login	undefined	
+2018/01/02 11:44:13		Event	sPPKYNaRjrJlIqC5JdbWS9AGVH1ng9de	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/login	undefined	
+2018/01/02 11:44:23		Event	sPPKYNaRjrJlIqC5JdbWS9AGVH1ng9de	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/02 11:44:24		Event	sPPKYNaRjrJlIqC5JdbWS9AGVH1ng9de	92	18324490333		nextStep						/proxy/log?name=nextStep&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 11:44:24		Event	sPPKYNaRjrJlIqC5JdbWS9AGVH1ng9de	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 14:11:10		Event	AHMRGGF193iivhHRYt4pFRcIfsIPq9Wo				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/pay?process=true	undefined	
+2018/01/02 14:11:10		Event	2Es48p7b1jU528kHNMjSNcqW56bcnmFY				pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/pay?process=true	undefined	
+2018/01/02 15:09:56		Interface	kLiQkw0TtmIG__UBXMR8_GwC0WsInUKK				/api/login/loginmsg	phone=18324490333&fromType=2					/api/login/loginmsg?phone=18324490333&fromType=2	http://localhost:8080/login	undefined	
+2018/01/02 15:09:56		Event	kLiQkw0TtmIG__UBXMR8_GwC0WsInUKK	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/login	undefined	
+2018/01/02 15:10:10		Event	kLiQkw0TtmIG__UBXMR8_GwC0WsInUKK	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/02 15:11:10		Event	kLiQkw0TtmIG__UBXMR8_GwC0WsInUKK	92	18324490333		nextStep						/proxy/log?name=nextStep&type=event&loading=false	http://localhost:8080/make?process=true	undefined	
+2018/01/02 15:11:10		Event	kLiQkw0TtmIG__UBXMR8_GwC0WsInUKK	92	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/make?process=true	undefined	

@@ -1,0 +1,29 @@
+{
+  "appenders": {
+    "console":{
+      "type": "console"
+    },
+    "development":{
+      "type": "dateFile",
+      "filename": "../logs/dev/",
+      "pattern": "yyyy-MM-dd.log",
+      "alwaysIncludePattern": true
+    },
+    "trace":{
+      "type": "dateFile",
+      "filename": "../logs/trace/",
+      "pattern": "yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout":{
+        "type": "pattern",
+        "pattern": "%m"
+      }
+    }
+  },
+  "replaceConsole": true,
+  "categories": {
+    "default": {"appenders": ["console"], "level": "all" },
+    "development": { "appenders": [ "development","console"], "level": "all" },
+    "trace": { "appenders": [ "trace" ], "level": "all" }
+  }
+}

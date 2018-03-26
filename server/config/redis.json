@@ -1,0 +1,14 @@
+{
+  "cookie" : {
+    "maxAge" : 1800000
+  },
+  "sessionStore" : {
+    "host" : "127.0.0.1",
+    "port" : "6379",
+    "db" : 5,
+    "pass":"e63822fc1f729bef17a0fae26d1f9fbd83709c35790402ad26b4a3b4fe84fbf2",
+    "prefix": "mobileprint:",
+    "ttl" : 7200,
+    "logErrors" : true
+  }
+}

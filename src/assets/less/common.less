@@ -1,0 +1,278 @@
+@basicBgColor: #3170eb;
+@btnColor: #387bee;
+@tipsColor: #ff9129;
+@basicTextColor: #4f566a;
+body {
+  font-size: .28rem;
+  color: @basicTextColor;
+  min-height:100%;
+  position: relative;
+}
+
+//提示框
+.tips {
+  position: fixed;
+  max-width: 80%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: .32rem .25rem;
+  border-radius: .1rem;
+  z-index: 11;
+  &.hide {
+    display: none;
+  }
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+    border-radius: .1rem;
+  }
+
+  p {
+    position: relative;
+    font-size: .24rem;
+    color: #fff;
+  }
+}
+
+//括号文字
+.small-text {
+  color: #8593bb;
+  font-size: .22rem;
+}
+
+//按钮
+.btn {
+  padding: .2rem .3rem;
+  a,span {
+    display: block;
+    padding: .3rem;
+    color: #fff;
+    font-size: .34rem;
+    text-align: center;
+    border-radius: .6rem;
+    &.btn-nosubmit{
+      background-color: rgba(49, 112, 235, 0.2);;
+      box-shadow: 0 0.1rem 0.38rem rgba(181,200,198, 0.4);
+    }
+    &.btn-submit{
+      background-color: @btnColor;
+      box-shadow: 0 0.1rem 0.38rem rgba(49, 112, 235, 0.5);
+    }
+  }
+}
+
+.bottom-bg{
+  border-bottom:.2rem solid #f4f4f4;
+}
+//按钮置底
+.bottom{
+  width:100%;
+  position:absolute;
+  bottom: .28rem;
+  left:0;
+}
+//来电去电秀
+.card-content {
+  padding: .4rem .2rem;
+  .title {
+    height: .30rem;
+    i, span {
+      display: block;
+      float: left;
+    }
+    i {
+      background-color: #3170eb;
+      width: .06rem;
+      height: .22rem;
+      border-radius: .03rem;
+      margin: .04rem .1rem .04rem 0;
+    }
+    span {
+      line-height: .30rem;
+    }
+  }
+  .content-control {
+    margin-top: .3rem;
+  }
+  .show-control {
+    .show-title {
+      padding: 0 .16rem;
+      p {
+        padding: .4rem 0 .3rem;
+        border-bottom: 1px solid #eee;
+      }
+    }
+    ul {
+      width: 100%;
+      overflow: hidden;
+      margin-top:.3rem;
+      li {
+        width: 50%;
+        text-align: center;
+        .call-bg {
+          height: 5.21rem;
+          width: 100%;
+          position: relative;
+          background-image: url('../images/call.png');
+          background-size: 3.32rem 5.2rem;
+          background-repeat: no-repeat;
+          background-position: center center;
+          .bg-control{
+            position: absolute;
+            top: 2.3rem;
+            width: 2.32rem;
+            left: 50%;
+            transform: translateX(-50%);
+            .bg-content {
+              padding: .15rem .2rem;
+              width:100%;
+              height:1.65rem;
+              font-size: .24rem;
+              line-height:.28rem;
+              border-radius: .04rem;
+              background-color: #fff;
+              text-align: justify;
+              box-shadow:0 0 .2rem rgba(49,112,235,0.3);
+              margin-bottom:.15rem;
+              word-wrap: break-word;
+              /*&:last-child{
+                width:100%;
+                height:.44rem;
+                padding:.1rem 0;
+                font-size: .2rem;
+                color:#137af8;
+                text-align: center;
+              }*/
+            }
+          }
+
+        }
+      }
+    }
+    .show-mms{
+      padding:.26rem .3rem;
+      border-radius: .34rem;
+      margin: 0.33rem 0.33rem 0;
+      box-shadow:0 0 .2rem rgba(49,112,235,0.3);
+      overflow: hidden;
+      .mms-image{
+        width:1.47rem;
+        height:1.84rem;
+        float:left;
+        margin-right:.2rem;
+        img{
+          width:100%;
+          height:100%;
+          display: block;
+          border-radius: .05rem;
+        }
+      }
+      .mms-content{
+        float:right;
+        width:4.1rem;
+        p{
+          margin-bottom:.5rem;
+          font-size:.24rem;
+          &:last-child{
+            margin-bottom:0;
+          }
+        }
+      }
+    }
+  }
+}
+//更换手机号
+.current-phone{
+    padding: .3rem .2rem .2rem;
+    position:relative;
+    .change-phone{
+      position: absolute;
+      right:.2rem;
+      bottom:.15rem;
+      width:.82rem;
+      height:.38rem;
+      line-height:.38rem;
+      border:1px solid #397bee;
+      border-radius: .03rem;
+      font-size:.24rem;
+      color:#397bee;
+      text-align: center;
+    }
+  }
+// loading 动画
+@keyframes an-loading {
+  0%,100%,80% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+}
+.full() {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+#loading {
+  position: fixed;
+  .full();
+  z-index: 1010;
+
+  .loading-shadow {
+    position: absolute;
+    .full();
+    background: #000;
+    opacity: .7;
+  }
+
+  .loading-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+
+    p {
+      color: #fff;
+      position: relative;
+      margin-bottom: .1rem;
+      font-size: .28rem;
+    }
+
+    i {
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 100%;
+      animation: an-loading 1.4s infinite ease-in-out;
+    }
+
+    i + i {
+      margin-left: 8px;
+    }
+
+    i:first-child {
+      animation-delay: -.32s
+    }
+
+    i:nth-child(2) {
+      animation-delay: -.16s
+    }
+  }
+}

@@ -1,0 +1,14 @@
+2018/01/30 18:09:02		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&params=%7B%22path%22%3A%22%2Fprofile%22%7D&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:09:02		Interface	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:04		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:04		Interface	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:12		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		startVip						/proxy/log?name=startVip&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:12		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:31		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:32		Interface	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:36		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:36		Interface	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		/api/login/loginmsg	phone=18324490333					/api/login/loginmsg?phone=18324490333	http://localhost:8080/profile	undefined	
+2018/01/30 18:11:41		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/profile	undefined	
+2018/01/30 18:13:28		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		viewAll						/proxy/log?name=viewAll&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/30 18:13:59		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
+2018/01/30 18:14:10		Event	mxRcMaDkf55pAhC0201fxy30-Ul4eqSj	97	18324490333		pageView						/proxy/log?name=pageView&type=event&loading=false	http://localhost:8080/	undefined	
